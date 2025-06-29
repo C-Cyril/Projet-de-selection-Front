@@ -2,6 +2,12 @@ const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
 const questionHTML = document.getelementByClassName("question");
 const questionHTML = document.getelementByClassName("reponse");
 
+//test
+function test () {
+  questionHTML.textContent = "test question";
+  reponseHTML.textContent = "test réponse";
+}
+
 function blagueAleatoire () {
   fetch (apiURL).then(reponseApi => {
     if (!reponseApi.ok) {
