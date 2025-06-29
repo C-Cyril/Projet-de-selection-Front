@@ -1,4 +1,3 @@
-<script type="text/javascript">
 const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
 const questionHTML = document.getelementByClassName("question");
 const questionHTML = document.getelementByClassName("reponse");
@@ -24,4 +23,3 @@ function blagueAleatoire () {
     console.error('Error: ', error);
   });
 }
-</script>
