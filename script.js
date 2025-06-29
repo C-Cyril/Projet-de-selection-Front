@@ -1,13 +1,13 @@
 
 function blagueAleatoire() {
-  const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
+  const apiURL = "https://projet-de-selection-back.onrender.com:10000/blagues/random"
   const questionHTML = document.getElementById("question");
   const reponseHTML = document.getElementById("reponse");
   
   questionHTML.textContent = "test Q";
   reponseHTML.textContent = "test R";
   
-  fetch (apiURL, {mode: 'cors'}).then(reponseApi => {
+  fetch (apiURL).then(reponseApi => {
     if (!reponseApi.ok) {
       throw new Error('Erreur lors de la demande de blague');
     }
