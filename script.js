@@ -3,10 +3,10 @@ const questionHTML = document.getelementByClassName("question");
 const questionHTML = document.getelementByClassName("reponse");
 
 //test
-function test () {
+button.addEventListener('click', function(){
   questionHTML.textContent = "test question";
   reponseHTML.textContent = "test réponse";
-}
+})
 
 function blagueAleatoire () {
   fetch (apiURL).then(reponseApi => {
