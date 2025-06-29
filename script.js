@@ -7,7 +7,7 @@ let button = document.querySelector('button');
 button.addEventListener('click', function(){
   alert('Test');
 });
-
+/*
 function blagueAleatoire () {
   fetch (apiURL).then(reponseApi => {
     if (!reponseApi.ok) {
@@ -23,3 +23,4 @@ function blagueAleatoire () {
     console.error('Error: ', error);
   });
 }
+*/
