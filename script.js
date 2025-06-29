@@ -7,7 +7,7 @@ function blagueAleatoire() {
   questionHTML.textContent = "test Q";
   reponseHTML.textContent = "test R";
   
-  fetch (apiURL).then(reponseApi => {
+  fetch (apiURL, {method: "GET")).then(reponseApi => {
     if (!reponseApi.ok) {
       throw new Error('Erreur lors de la demande de blague');
     }
