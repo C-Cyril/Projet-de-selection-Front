@@ -4,6 +4,7 @@ const questionHTML = document.getelementByClassName("question");
 const questionHTML = document.getelementByClassName("reponse");
 
 //test
+let button = document.querySelector('button');
 button.addEventListener('click', function(){
   questionHTML.textContent = "test question";
   reponseHTML.textContent = "test réponse";
