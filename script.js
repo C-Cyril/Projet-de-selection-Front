@@ -3,11 +3,15 @@ const questionHTML = document.getelementByClassName("question");
 const questionHTML = document.getelementByClassName("reponse");
 
 //test
+function test () {
+  alert('Tesssssssst');
+};
+/*
 let button = document.querySelector('button');
 button.addEventListener('click', function(){
   alert('Test');
 });
-/*
+
 function blagueAleatoire () {
   fetch (apiURL).then(reponseApi => {
     if (!reponseApi.ok) {
