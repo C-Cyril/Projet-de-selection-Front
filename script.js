@@ -3,7 +3,7 @@ const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
 //const questionHTML = document.getelementByClassName("reponse");
 
 //test
-function test () {
+function testFunc() {
   alert('Tesssssssst');
 };
 /*
