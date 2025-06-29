@@ -1,6 +1,6 @@
 
 function blagueAleatoire() {
-  const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
+  //const apiURL = "https://projet-de-selection-back.onrender.com/blagues/random"
   const questionHTML = document.getElementById("question");
   const reponseHTML = document.getElementById("reponse");
   
