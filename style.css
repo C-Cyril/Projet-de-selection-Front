@@ -1,1 +1,29 @@
+body {
+    margin: auto;
+    text-align: center;
+}
 
+.banniere {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+}
+
+.bouton {
+    margin: auto;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.blague {
+    margin: auto;
+    text-align: center;
+}
+
+.piedDePage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
