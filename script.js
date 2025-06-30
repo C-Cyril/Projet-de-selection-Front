@@ -4,8 +4,8 @@ function blagueAleatoire() {
   const questionHTML = document.getElementById("question");
   const reponseHTML = document.getElementById("reponse");
   
-  questionHTML.textContent = "test Q";
-  reponseHTML.textContent = "test R";
+  questionHTML.textContent = "test Ques";
+  reponseHTML.textContent = "test Rep";
   
   fetch (apiURL).then(reponseApi => {
     if (!reponseApi.ok) {
