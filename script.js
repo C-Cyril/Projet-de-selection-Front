@@ -11,10 +11,10 @@ function blagueAleatoire() {
     if (!reponseApi.ok) {
       throw new Error('Erreur lors de la demande de blague');
     }
-    alert('Reussite');
     return reponseApi;
   })
   .then(blague => {
+    console.log(blague);
     questionHTML.textContent = "test question";
     reponseHTML.textContent = "test réponse";
   })
