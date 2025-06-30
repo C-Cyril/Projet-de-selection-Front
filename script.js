@@ -11,7 +11,7 @@ function blagueAleatoire() {
     if (!reponseApi.ok) {
       throw new Error('Erreur lors de la demande de blague');
     }
-    return reponseApi;
+    return reponseApi.json();
   })
   .then(blague => {
     console.log(blague);
