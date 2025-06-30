@@ -14,9 +14,8 @@ function blagueAleatoire() {
     return reponseApi.json();
   })
   .then(blague => {
-    console.log(blague);
-    questionHTML.textContent = "test question";
-    reponseHTML.textContent = "test réponse";
+    questionHTML.textContent = blague.question;
+    reponseHTML.textContent = blague.reponse;
   })
   .catch(error => {
     console.error('Error: ', error);
